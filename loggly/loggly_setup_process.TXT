@@ -1,0 +1,39 @@
+                                            #LOGGLY PROJECT
+			                                      -:LOGGLY Setup Process:-
+
+Requirements of this project:-
+Loggly account 
+Virtual box/system (Oracle)
+Kali Linux should be installed in virtual box
+ Setup Process:-
+	Have to create account in loggly website.
+	Click on “Add a Log Source”
+	Select “Linux System Log”
+	Select manual process
+	Part of manual process update the linux first run the cmd  “sudo apt update”
+	Download and install rsyslog demon/service run the cmd “sudo apt install rsyslog –y” 
+(rsyslog demon is used to collect all system logs and send to network device and applications)
+	Conform the version using cmd “rsyslogd –v”
+	Conform the of the demon/service “sudo systemctl status rsyslog”
+	Created another file /etc/rsyslog.d/22-loggly.conf  “sudo vim /etc/rsyslog.d/22-loggly.conf” to upload the given configurations in the website.
+Rsyslog version is more than 7 as per the instruction on website I have used given configuration
+
+# Setup disk assisted queues
+$WorkDirectory /var/spool/rsyslog
+$ActionQueueFileName fwdRule1
+$ActionQueueMaxDiskSpace 1g
+$ActionQueueSaveOnShutdown on
+$ActionQueueType LinkedList
+$ActionResumeRetryCount -1
+
+# Loggly Template (REPLACE TAG)
+template(name="LogglyFormat" type="string"
+ string="<%pri%>%protocol-version% %timestamp:::date-rfc3339% %HOSTNAME% %app-name% %procid% %msgid% [3ec56256-f62c-44a6-b242-cfef35ba03df@41058 tag=\"kali-linux\"] %msg%\n")
+
+# Send logs to Loggly
+*.* action(type="omfwd" protocol="tcp" target="logs-01.loggly.com" port="514" template="LogglyFormat")
+
+	Restart rsyslog demon using cmd “sudo systemctl restart rsyslog”
+	Open loggly website and check for log activity under dashboard.
+ 
+
