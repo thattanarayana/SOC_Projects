@@ -29,3 +29,7 @@ Key Indicators:
 -> Understanding brute force attack patterns
 -> Hands-on experience with SSH attack simulation
 -> Log analysis using Loggly
+
+Note :- 
+-> Capture images attached under the labs folder for eveidence purpose.   
+-> Images are in the name of "brute-force_1 & brute-force_2".
