@@ -1,7 +1,7 @@
 #SOC Analyst learning process
 SOC Log Monitoring & Attack Detection using Loggly
 
-* As part of my SOC Analyst learning journey, I have completed studying Log Management tools.
+* As part of my SOC Analyst learning journey, I have explored studying Log Management cloud tool.
 * I have also uploaded my complete project on Loggly, which includes detailed data and explanations of the concepts I learned.
 
 -: Project Overview :-
@@ -17,3 +17,8 @@ SOC Log Monitoring & Attack Detection using Loggly
 * rsyslog
 * Oracle VirtualBox
 * Basic laptop
+
+-: Expected outcome of the expirement :-
+* Successfully configured centralized logging
+* Forwarded Linux logs to Loggly
+* Verified real-time log monitoring
