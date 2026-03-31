@@ -4,10 +4,9 @@ SOC Log Monitoring & Attack Detection using Loggly
 * As part of my SOC Analyst learning journey, I have completed studying Log Management tools.
 * I have also uploaded my complete project on Loggly, which includes detailed data and explanations of the concepts I learned.
 
-
 -: Project Overview :-
 * This project demonstrates how to build a SOC (Security Operations Center) monitoring system using Kali Linux and Loggly.
-* Logs from Kali Linux are forwarded using rsyslog to Loggly, where they are analyzed to detect suspicious activities like brute force attacks, privilege escalation, and unauthorized access.
+* Logs from Kali Linux are forwarded using rsyslog demo to Loggly, where they are analyzed to detect suspicious activities like brute force attacks, privilege escalation, and unauthorized access.
 
 -: Architecture :-
 * Kali Linux → rsyslog → Loggly → Dashboard & Alerts
@@ -18,5 +17,3 @@ SOC Log Monitoring & Attack Detection using Loggly
 * rsyslog
 * Oracle VirtualBox
 * Basic laptop
-
-  
