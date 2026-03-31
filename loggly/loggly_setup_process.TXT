@@ -1,22 +1,26 @@
-                                            #LOGGLY PROJECT
-			                                      -:LOGGLY Setup Process:-
+                                                         #LOGGLY PROJECT
+			                                      -:LOGGLY Setup Process/Steps:-
 
-Requirements of this project:-
-Loggly account 
-Virtual box/system (Oracle)
-Kali Linux should be installed in virtual box
- Setup Process:-
-	Have to create account in loggly website.
-	Click on “Add a Log Source”
-	Select “Linux System Log”
-	Select manual process
-	Part of manual process update the linux first run the cmd  “sudo apt update”
-	Download and install rsyslog demon/service run the cmd “sudo apt install rsyslog –y” 
-(rsyslog demon is used to collect all system logs and send to network device and applications)
-	Conform the version using cmd “rsyslogd –v”
-	Conform the of the demon/service “sudo systemctl status rsyslog”
-	Created another file /etc/rsyslog.d/22-loggly.conf  “sudo vim /etc/rsyslog.d/22-loggly.conf” to upload the given configurations in the website.
-Rsyslog version is more than 7 as per the instruction on website I have used given configuration
+1. Create Loggly Account
+-> Sign up on Loggly website = https://www.loggly.com/signup/
+-> Navigate to "Add a Log Source"
+
+2. Configure Log Source in Loggly dashboard 
+-> Select Linux System Log
+-> Choose Manual Configuration
+
+3. Update System & Install rsyslog service/demon
+-> sudo apt update
+-> sudo apt install rsyslog -y
+
+4. Verify Installation & check the status of the service
+-> Check rsyslog version "rsyslogd -v"
+-> Check service status "systemctl status rsyslog"
+
+5. Configure rsyslog for Loggly
+-> Create configuration file "vim /etc/rsyslog.d/22-loggly.conf"
+-> Add the following configuration (compatible with rsyslog version > 7)
+-> After the update of given configuraction save exit the vim press "Esc, :wq "
 
 # Setup disk assisted queues
 $WorkDirectory /var/spool/rsyslog
@@ -33,7 +37,14 @@ template(name="LogglyFormat" type="string"
 # Send logs to Loggly
 *.* action(type="omfwd" protocol="tcp" target="logs-01.loggly.com" port="514" template="LogglyFormat")
 
-	Restart rsyslog demon using cmd “sudo systemctl restart rsyslog”
-	Open loggly website and check for log activity under dashboard.
- 
+6. Restart rsyslog Service & check the staus of rsyslog service
+-> Restart rsyslog service "sudo systemctl restart rsyslog"
+-> Check status rsyslog service "sudo systemctl status rsyslog"
+
+7. Verify Logs in Loggly Dashboard
+-> Open Loggly Dashboard
+-> Check incoming logs under Live Tail / Search
+
+
+
 
