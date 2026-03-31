@@ -25,6 +25,10 @@ Key Indicators:
 -> Spike in event timeline
 -> Same source IP (127.0.0.1 in this case)
 
+__Query/Fliter applied to check results__ 
+-> syslog.appName:sshd-session AND "Failed password"
+-> syslog.appName:sshd-session AND "narayana"
+
  __Learnings of the project__
 -> Understanding brute force attack patterns
 -> Hands-on experience with SSH attack simulation
