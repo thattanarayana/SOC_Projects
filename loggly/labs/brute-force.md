@@ -34,6 +34,13 @@ __Query/Fliter applied to check results__
 -> Hands-on experience with SSH attack simulation
 -> Log analysis using Loggly
 
+__Brute Force Alert Configuration (Loggly)__
+* Implemented a real-time alerting mechanism in Loggly to detect potential SSH brute force attacks
+* Configured alert to trigger email notifications when:
+* Invalid SSH login attempts / authentication failures exceed 10 occurrences
+* The alert condition is evaluated every 1 minute, enabling quick detection of suspicious activity
+* Reference screenshot attached under labs folder: brute-force_alert_3.png
+
 Note :- 
 -> Capture images attached under the labs folder for eveidence purpose.   
 -> Images are in the name of "brute-force_1 & brute-force_2".
