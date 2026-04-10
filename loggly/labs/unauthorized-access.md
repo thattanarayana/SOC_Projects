@@ -30,3 +30,6 @@ Alert Configuration in Loggly -
 -> User account modifications
 -> Privilege escalation commands
 -> Alerts are triggered in near real-time based on defined thresholds
+
+Note :- -> Capture images attached under the labs folder for eveidence purpose.
+-> Images are in the name of "unauthorized-access_1, unauthorized-access_2, unauthorized-access_3 & unauthorized-access_4".
