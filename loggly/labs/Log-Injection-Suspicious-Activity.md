@@ -18,3 +18,6 @@ Alert Configuration -
 -> Trigger condition: Presence of "ALERT" or "WARNING" keywords
 -> Monitoring interval: Continuous / near real-time
 -> Notification: Alert triggered when suspicious logs are detected
+
+Note :- -> Capture images attached under the labs folder for eveidence purpose.
+        -> Images are in the name of "Log-Injection-Suspicious-Activity_1, Log-Injection-Suspicious-Activity_2 & Log-Injection-Suspicious-Activity_3".
