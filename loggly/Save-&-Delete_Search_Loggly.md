@@ -1,4 +1,15 @@
-                                                -: Delete Saved Search & Alert's in Loggly :-
+                                                 -: Save & Delete Search in Loggly :-
+
+Follow the below steps to save a search in Loggly -
+
+-> Navigate to dashboard.
+-> Select type of logs under filiter.
+-> select type of service.
+-> Clikc on faviourite option.
+-> Select "Save this search as..." in drop down.
+-> Give name bases on you search to identify 
+-> Click on save 
+
 
 * Follow the below steps to remove a saved search in Loggly -
 
