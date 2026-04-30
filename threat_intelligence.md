@@ -1,4 +1,4 @@
-								                                                    -: Threat Intelligence For SOC Analyst :-
+								                -: Threat Intelligence For SOC Analyst :-
 
 -> What is Threat Intelligence?
    Threat Intelligence is a actionable knowledge which helps understand attackers pattern and steps.
