@@ -1,6 +1,7 @@
 						-: Phishing Analysis Guide for SOC Analysts :-
 
 What is Phishing?
+
 A social engineering attack that tricks users into revealing credentials, clicking malicious links, or downloading attachments.
 
 Common Types :-
