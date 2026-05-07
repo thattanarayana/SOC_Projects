@@ -32,7 +32,7 @@ Step 2: Install VirtualBox
                                                              2. Kali Linux Setup in VirtualBox :- 
 
 Step 1: Download Kali Linux ISO
--> Go to -
+-> Go to - https://www.kali.org/get-kali/#kali-platforms
 -> Kali Linux Downloads
 -> Download "Open Installer Images"
 -> Select 64-bit Version
@@ -111,7 +111,7 @@ Step 6: Select Desktop Environment
 
 
 Step 1: Download Windows 10 ISO
--> Go to "Windows 10 Download Page"
+-> Go to - https://www.microsoft.com/en-us/software-download/windows10?msockid=250979f2e7b0674102d36f1de6d26603 "Windows 10 Download Page"
 -> Under "Create Windows 10 installation media"
 -> Click "Download Now"
 -> This downloads the Media Creation Tool.
