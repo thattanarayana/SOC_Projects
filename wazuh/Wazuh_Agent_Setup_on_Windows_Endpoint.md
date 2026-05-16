@@ -15,7 +15,7 @@ Step 3 — Configure VMware NAT Network
 	       Configure VMware NAT to avoid dynamic ip change issues -> Open VMware Workstation on Top menu clikc on Edit → Virtual Network Editor
 Step 4 — Configure VMnet8 -> Select "VMnet8"
 	 | Setting                        | Value         |
-   | ------------------------------ | ------------- |
+     | ------------------------------ | ------------- |
  	 | Network Type                   | NAT           |
 	 | DHCP                           | Enabled       |
 	 | Connect a host virtual adapter | Enabled       |
