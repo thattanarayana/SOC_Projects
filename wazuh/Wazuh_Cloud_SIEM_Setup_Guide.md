@@ -45,14 +45,22 @@ Deploy Wazuh Agent on Endpoint Device:-
 Step 1 — Open Agent Deployment 
 	       Click on "Deploy new agent" to setup agent in endpoint 
 Step 2 - Fill the to genrate cmd to download and intall agent 
-	       Select the package to download and install on your system:
+	     Select the package to download and install on your system:
          Server address:
          Server address: (This is the address the agent uses to communicate with the server. Enter an IP address or a fully qualified domain name (FQDN))
          Assign an agent name:
 Step 3 - Copy and run the following commands to download and install the agent: (cmd will display at page) wai untill finsh installation 
 Step 4 - Once finsh the download and installation porcess Start the agent using cmd "NET START Wazuh"	
 Step 8 - Go to wazuh dashboard -> check for agent status it should be active  	 
+
+
 	 
+By completing this project I have gain knowledge about :-
+* Cloud SIEM deployment
+* Endpoint agent management
+* Security event monitoring
+* Centralized log collection
+* SOC environment basics
 
 
 
