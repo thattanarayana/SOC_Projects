@@ -1,7 +1,7 @@
-					           -: Wazuh SIEM Setup using Docker Desktop on Windows :-
+					           -: Wazuh SIEM Setup using Docker Desktop on Windows on-premises:-
 
 
-A complete guide to install and configure the open-source SIEM tool Wazuh using Docker Desktop on Windows.
+A complete guide to install and configure the open-source SIEM tool Wazuh using Docker Desktop on Windows on-premises.
 
 Overview :-
 Install Docker Desktop on Windows
