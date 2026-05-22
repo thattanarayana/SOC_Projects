@@ -1,4 +1,4 @@
-							                                    -: Wazuh Agent Setup on Windows Endpoint :-
+							                                    -: Wazuh Agent Setup on Windows Endpoint on-premises :-
 
 This guide explains how to install and configure the Wazuh Agent on a Windows Virtual Machine (endpoint device) and connect it to a locally hosted/on-premises Wazuh Server running on the host machine.
 
