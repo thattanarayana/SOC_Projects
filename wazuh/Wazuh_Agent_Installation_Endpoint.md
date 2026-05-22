@@ -1,7 +1,6 @@
-					      -: Wazuh Agent Installation on Endpoint Windows VM :-
+					      -: Wazuh Agent Installation on Endpoint Windows VM cloud version :-
 
-This guide explains how to install and configure the Wazuh Agent inside a windows & Kali Linux virtual machine running on VMware Workstation and connect it to the Wazuh Cloud dashboard.
-This process is for wazuh cloud version 
+This guide explains how to install and configure the Wazuh Agent inside a windows & Kali Linux virtual machine running on VMware Workstation and connect it to the Wazuh Cloud dashboard. This process is for wazuh cloud version. 
 
 Deploy Wazuh Agent on Endpoint Windows Device:- 
 Step 1 — Open Agent Deployment 
@@ -14,7 +13,7 @@ Step 3 - Copy and run the following commands to download and install the agent: 
 Step 4 - Once finsh the download and installation porcess Start the agent using cmd "NET START Wazuh" 
 Step 5 - Go to wazuh dashboard -> check for agent status it should be active						
 
-				        -: Wazuh Agent Installation on Endpoint Kali Linux VM :-
+				        -: Wazuh Agent Installation on Endpoint Kali Linux VM cloud version :-
 
 Deploy Wazuh Agent on Endpoint Linux Device:- 
 Step 1 - Run cmd "sudo apt update" This cmd refreshes Kali Linux package information and helps avoid dependency issues.
