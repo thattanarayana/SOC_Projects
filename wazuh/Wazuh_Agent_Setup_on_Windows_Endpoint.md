@@ -1,6 +1,8 @@
 							                                    -: Wazuh Agent Setup on Windows Endpoint :-
 
-This explains how to install and configure the Wazuh Agent on a Windows Virtual Machine (endpoint device) and connect it to the Wazuh server running on your host machine.
+This guide explains how to install and configure the Wazuh Agent on a Windows Virtual Machine (endpoint device) and connect it to a locally hosted/on-premises Wazuh Server running on the host machine.
+
+The setup helps you monitor Windows security events, detect suspicious activities, and analyze logs directly from your Wazuh Dashboard in a SOC lab environment.
 
 Architecture:-
 Windows VM (Agent) -> Wazuh Agent -> Host Machine (Wazuh Server + Dashboard) -> Wazuh Dashboard Alerts & Monitoring
@@ -33,7 +35,7 @@ Step 7 — Deploy New Wazuh Agent
 	         the agent has been enrolled.) Next -> Leave Group as Default "Default"
 	       * Wazuh Generates Commands after entering details "You will see commands appear automatically under" and Start the agent
 	       * Inside Windows VM Open -> run as administrator "PowerShell" -> Paste copied command -> Press ENTER -> Wait for installation to complete. 
-	       * cmd to download agent (Invoke-WebRequest -Uri https://packages.wazuh.com/4.x/windows/wazuh-agent-4.14.0-1.msi-OutFile $env:tmp\wazuh-agent; msiexec.exe /i              $env:tmp\wazuh-agent /q WAZUH_MANAGER='192.168.168.1'WAZUH_AGENT_NAME='windows-vm') 
+	       * cmd to download agent (Invoke-WebRequest -Uri https://packages.wazuh.com/4.x/windows/wazuh-agent-4.14.0-1.msi-OutFile $env:tmp\wazuh-agent;     msiexec.exe /i$env:tmp\wazuh-agent /q WAZUH_MANAGER='192.168.168.1'WAZUH_AGENT_NAME='windows-vm') 
 	       * Wai to finsh the installation
          * START AGENT after the instlallation using cmd (NET START WazuhSvc)
 	       * Check wazuh dashboard -> Agent Summary -> check Agents (1)
