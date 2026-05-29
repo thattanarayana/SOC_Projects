@@ -1,4 +1,4 @@
-Investigation Findings :-
+Investigation Findings Failed Linux SSH Brute Force Attack:-
 
 After detecting multiple Wazuh alerts (Rule ID 60122), the related Windows Security logs were analyzed. 
 The alerts were generated from Windows Event ID 4625, indicating failed authentication attempts against the Windows OpenSSH service (sshd.exe).
