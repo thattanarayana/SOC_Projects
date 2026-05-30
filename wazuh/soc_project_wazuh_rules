@@ -1,0 +1,175 @@
+                                                                    -: Wazu Rules Created As Part of SOC Project :-
+                                                              -: Linux SSH Brute Force Attack Detection using Wazuh Cloud SIEM :-
+Rule Name -> ssh_bruteforce.xml
+<group name="windows,ssh,authentication">
+
+  <rule id="100500" level="12">
+
+    <if_sid>60122</if_sid>
+
+    <description>SSH Brute Force Attack Detected</description>
+
+  </rule>
+
+</group>
+						
+						-: Unauthorized File Access Detection using Wazuh SIEM :-
+						
+Rule Name -> File_Modification_Detection.xml
+<group name="syscheck,custom,">
+
+  <rule id="100500" level="10">
+    <if_sid>550</if_sid>
+    <description>Unauthorized file modification detected in SensitiveData folder</description>
+    <mitre>
+      <id>T1565.001</id>
+    </mitre>
+  </rule>
+
+</group>
+
+Rule Name -> File_Deletion_Detection.xml
+<group name="syscheck,custom,">
+
+  <rule id="100501" level="12">
+    <if_sid>553</if_sid>
+    <description>File deletion detected in SensitiveData folder</description>
+    <mitre>
+      <id>T1070.004</id>
+    </mitre>
+  </rule>
+
+</group>
+
+Rule Name -> Modification_Inside_Particular_Folder_Detection.xml
+<group name="syscheck,custom,">
+
+  <rule id="100502" level="12">
+    
+    <if_sid>550</if_sid>
+
+    <field name="file">C:\\SensitiveData</field>
+
+    <description>Unauthorized file modification detected inside SensitiveData folder</description>
+
+    <mitre>
+      <id>T1565.001</id>
+    </mitre>
+
+  </rule>
+
+</group>
+
+				              -: Windows Privilege Escalation Detection using Wazuh SIEM :-
+
+<group name="windows,privilege_escalation,">
+
+  <!-- Detect User Account Creation -->
+  <rule id="100200" level="10">
+    <if_group>windows</if_group>
+    <field name="win.system.eventID">4720</field>
+    <description>Windows User Account Created</description>
+    <group>
+      windows,
+      account_management,
+      privilege_escalation,
+    </group>
+    <mitre>
+      <id>T1136</id>
+    </mitre>
+  </rule>
+
+  <!-- Detect User Added to Administrators Group -->
+  <rule id="100201" level="12">
+    <if_group>windows</if_group>
+    <field name="win.system.eventID">4732</field>
+    <description>Possible Privilege Escalation - User Added to Administrators Group</description>
+    <group>
+      windows,
+      privilege_escalation,
+      attack,
+    </group>
+    <mitre>
+      <id>T1078</id>
+      <id>T1098</id>
+    </mitre>
+  </rule>
+
+  <!-- Detect Special Privileges Assigned -->
+  <rule id="100202" level="8">
+    <if_group>windows</if_group>
+    <field name="win.system.eventID">4672</field>
+    <description>Special Privileges Assigned to New Logon</description>
+    <group>
+      windows,
+      authentication,
+      privilege_escalation,
+    </group>
+    <mitre>
+      <id>T1078</id>
+    </mitre>
+  </rule>
+
+</group>
+
+										-: Port Scanning Detection in SOC Lab using Wazuh :-
+Rule Name -> Port_Scanning_Detection.xml		
+	
+<group name="windows,sysmon,portscan,">
+
+  <rule id="100500" level="12">
+    <if_group>sysmon_event3</if_group>
+
+    <frequency>15</frequency>
+    <timeframe>60</timeframe>
+
+    <same_source_ip />
+
+    <description>
+      Possible Port Scanning Activity Detected from $(win.eventdata.sourceIp)
+    </description>
+
+    <mitre>
+      <id>T1046</id>
+    </mitre>
+
+    <group>
+      attack.discovery,
+      portscan,
+      nmap
+    </group>
+  </rule>
+
+</group>
+
+						-: Linux Suspicious Command Activity Detection using Wazuh SIEM :- 
+						
+Rule Name -> Log_Injection_Suspicious_Activity_Detection.xml
+
+<group name="linux_suspicious_activity">
+
+  <rule id="110500" level="12">
+    <match>bash</match>
+    <description>Suspicious Bash Shell Activity Detected</description>
+    <group>shell,linux,command_execution,</group>
+  </rule>
+
+  <rule id="110501" level="12">
+    <match>wget</match>
+    <description>Suspicious File Download Activity Detected</description>
+    <group>download,linux,</group>
+  </rule>
+
+  <rule id="110503" level="12">
+    <match>curl</match>
+    <description>Suspicious Curl Download Activity Detected</description>
+    <group>download,linux,</group>
+  </rule>
+
+  <rule id="110502" level="15">
+    <match>nc</match>
+    <description>Possible Reverse Shell Activity Detected</description>
+    <group>reverse_shell,linux,</group>
+  </rule>
+
+</group>
