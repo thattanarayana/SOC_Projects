@@ -7,4 +7,7 @@
 * The main objective of this project was to understand how Windows security events are generated, collected through the Splunk Universal Forwarder,
   sent to Splunk Cloud, searched using SPL queries, and investigated from a SOC analyst perspective.
 * I performed different security activities on the Windows endpoint and analysed the generated events in Splunk Cloud.
-* The project helped me understand the complete workflow from log generation → log collection → SIEM search → alert investigation → incident classification.  
+* The project helped me understand the complete workflow of
+Log generation → log collection → SIEM search → alert investigation → incident classification.
+
+  
