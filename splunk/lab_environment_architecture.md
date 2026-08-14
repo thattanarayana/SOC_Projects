@@ -20,6 +20,9 @@ Physical Laptop used to access and analyse the Splunk Cloud dashboard
 
 
 ===================================Architecture=========================
+
+
+
       Physical Laptop
         |  |
       Splunk Cloud SIEM Search & Analysis
