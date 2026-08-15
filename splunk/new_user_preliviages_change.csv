@@ -1,0 +1,511 @@
+"Account_Domain","Account_Name",ComputerName,EventCode,EventType,"Group_Domain","Group_Name",Guid,IMPHASH,Keywords,LogName,"Logon_ID",MD5,Message,Name,OpCode,Privileges,ProcessID,RecordNumber,SHA256,"Security_ID",SourceName,SystemTime,TaskCategory,ThreadID,Type,UserID,"_raw","_time",eventtype,host,index,linecount,punct,source,sourcetype,"splunk_server","splunk_server_group",tag,"tag::eventtype",xmlns
+"DESKTOP-JMN8F45","narayana
+-","DESKTOP-JMN8F45",4732,0,Builtin,Administrators,,,"Audit Success",Security,0x3A8741,,"A member was added to a security-enabled local group.
+
+Subject:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1001
+	Account Name:		narayana
+	Account Domain:		DESKTOP-JMN8F45
+	Logon ID:		0x3A8741
+
+Member:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1021
+	Account Name:		-
+
+Group:
+	Security ID:		S-1-5-32-544
+	Group Name:		Administrators
+	Group Domain:		Builtin
+
+Additional Information:
+	Privileges:		-",,Info,"-",,182805,,"S-1-5-21-2168340411-3997220154-3042947259-1001
+S-1-5-21-2168340411-3997220154-3042947259-1021
+S-1-5-32-544","Microsoft Windows security auditing.",,"Security Group Management",,Information,,"08/15/2026 06:29:05.000 PM
+LogName=Security
+EventCode=4732
+EventType=0
+ComputerName=DESKTOP-JMN8F45
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=182805
+Keywords=Audit Success
+TaskCategory=Security Group Management
+OpCode=Info
+Message=A member was added to a security-enabled local group.
+
+Subject:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1001
+	Account Name:		narayana
+	Account Domain:		DESKTOP-JMN8F45
+	Logon ID:		0x3A8741
+
+Member:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1021
+	Account Name:		-
+
+Group:
+	Security ID:		S-1-5-32-544
+	Group Name:		Administrators
+	Group Domain:		Builtin
+
+Additional Information:
+	Privileges:		-","2026-08-15T12:59:05.000+0000",,"DESKTOP-JMN8F45",main,30,"//_::._====-=___.===_=__==______-__.\r\r:\rt_:tt-----","WinEventLog:Security","WinEventLog:Security","si-i-0619586bc2f326949.prd-p-4b1hq.splunkcloud.com",,,,
+"DESKTOP-JMN8F45","narayana
+-","DESKTOP-JMN8F45",4732,0,Builtin,Administrators,,,"Audit Success",Security,0x3A8741,,"A member was added to a security-enabled local group.
+
+Subject:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1001
+	Account Name:		narayana
+	Account Domain:		DESKTOP-JMN8F45
+	Logon ID:		0x3A8741
+
+Member:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1020
+	Account Name:		-
+
+Group:
+	Security ID:		S-1-5-32-544
+	Group Name:		Administrators
+	Group Domain:		Builtin
+
+Additional Information:
+	Privileges:		-",,Info,"-",,182802,,"S-1-5-21-2168340411-3997220154-3042947259-1001
+S-1-5-21-2168340411-3997220154-3042947259-1020
+S-1-5-32-544","Microsoft Windows security auditing.",,"Security Group Management",,Information,,"08/15/2026 06:28:59.128 PM
+LogName=Security
+EventCode=4732
+EventType=0
+ComputerName=DESKTOP-JMN8F45
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=182802
+Keywords=Audit Success
+TaskCategory=Security Group Management
+OpCode=Info
+Message=A member was added to a security-enabled local group.
+
+Subject:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1001
+	Account Name:		narayana
+	Account Domain:		DESKTOP-JMN8F45
+	Logon ID:		0x3A8741
+
+Member:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1020
+	Account Name:		-
+
+Group:
+	Security ID:		S-1-5-32-544
+	Group Name:		Administrators
+	Group Domain:		Builtin
+
+Additional Information:
+	Privileges:		-","2026-08-15T12:58:59.128+0000",,"DESKTOP-JMN8F45",main,30,"//_::._====-=___.===_=__==______-__.\r\r:\rt_:tt-----","WinEventLog:Security","WinEventLog:Security","si-i-0619586bc2f326949.prd-p-4b1hq.splunkcloud.com",,,,
+"DESKTOP-JMN8F45","narayana
+-","DESKTOP-JMN8F45",4732,0,Builtin,Administrators,,,"Audit Success",Security,0x3A8741,,"A member was added to a security-enabled local group.
+
+Subject:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1001
+	Account Name:		narayana
+	Account Domain:		DESKTOP-JMN8F45
+	Logon ID:		0x3A8741
+
+Member:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1019
+	Account Name:		-
+
+Group:
+	Security ID:		S-1-5-32-544
+	Group Name:		Administrators
+	Group Domain:		Builtin
+
+Additional Information:
+	Privileges:		-",,Info,"-",,182799,,"S-1-5-21-2168340411-3997220154-3042947259-1001
+S-1-5-21-2168340411-3997220154-3042947259-1019
+S-1-5-32-544","Microsoft Windows security auditing.",,"Security Group Management",,Information,,"08/15/2026 06:28:55.184 PM
+LogName=Security
+EventCode=4732
+EventType=0
+ComputerName=DESKTOP-JMN8F45
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=182799
+Keywords=Audit Success
+TaskCategory=Security Group Management
+OpCode=Info
+Message=A member was added to a security-enabled local group.
+
+Subject:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1001
+	Account Name:		narayana
+	Account Domain:		DESKTOP-JMN8F45
+	Logon ID:		0x3A8741
+
+Member:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1019
+	Account Name:		-
+
+Group:
+	Security ID:		S-1-5-32-544
+	Group Name:		Administrators
+	Group Domain:		Builtin
+
+Additional Information:
+	Privileges:		-","2026-08-15T12:58:55.184+0000",,"DESKTOP-JMN8F45",main,30,"//_::._====-=___.===_=__==______-__.\r\r:\rt_:tt-----","WinEventLog:Security","WinEventLog:Security","si-i-0619586bc2f326949.prd-p-4b1hq.splunkcloud.com",,,,
+"DESKTOP-JMN8F45","narayana
+-","DESKTOP-JMN8F45",4732,0,Builtin,Administrators,,,"Audit Success",Security,0x3A8741,,"A member was added to a security-enabled local group.
+
+Subject:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1001
+	Account Name:		narayana
+	Account Domain:		DESKTOP-JMN8F45
+	Logon ID:		0x3A8741
+
+Member:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1018
+	Account Name:		-
+
+Group:
+	Security ID:		S-1-5-32-544
+	Group Name:		Administrators
+	Group Domain:		Builtin
+
+Additional Information:
+	Privileges:		-",,Info,"-",,182796,,"S-1-5-21-2168340411-3997220154-3042947259-1001
+S-1-5-21-2168340411-3997220154-3042947259-1018
+S-1-5-32-544","Microsoft Windows security auditing.",,"Security Group Management",,Information,,"08/15/2026 06:28:51.507 PM
+LogName=Security
+EventCode=4732
+EventType=0
+ComputerName=DESKTOP-JMN8F45
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=182796
+Keywords=Audit Success
+TaskCategory=Security Group Management
+OpCode=Info
+Message=A member was added to a security-enabled local group.
+
+Subject:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1001
+	Account Name:		narayana
+	Account Domain:		DESKTOP-JMN8F45
+	Logon ID:		0x3A8741
+
+Member:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1018
+	Account Name:		-
+
+Group:
+	Security ID:		S-1-5-32-544
+	Group Name:		Administrators
+	Group Domain:		Builtin
+
+Additional Information:
+	Privileges:		-","2026-08-15T12:58:51.507+0000",,"DESKTOP-JMN8F45",main,30,"//_::._====-=___.===_=__==______-__.\r\r:\rt_:tt-----","WinEventLog:Security","WinEventLog:Security","si-i-0619586bc2f326949.prd-p-4b1hq.splunkcloud.com",,,,
+"DESKTOP-JMN8F45","narayana
+-","DESKTOP-JMN8F45",4732,0,Builtin,Administrators,,,"Audit Success",Security,0x3A8741,,"A member was added to a security-enabled local group.
+
+Subject:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1001
+	Account Name:		narayana
+	Account Domain:		DESKTOP-JMN8F45
+	Logon ID:		0x3A8741
+
+Member:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1017
+	Account Name:		-
+
+Group:
+	Security ID:		S-1-5-32-544
+	Group Name:		Administrators
+	Group Domain:		Builtin
+
+Additional Information:
+	Privileges:		-",,Info,"-",,182793,,"S-1-5-21-2168340411-3997220154-3042947259-1001
+S-1-5-21-2168340411-3997220154-3042947259-1017
+S-1-5-32-544","Microsoft Windows security auditing.",,"Security Group Management",,Information,,"08/15/2026 06:28:44.191 PM
+LogName=Security
+EventCode=4732
+EventType=0
+ComputerName=DESKTOP-JMN8F45
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=182793
+Keywords=Audit Success
+TaskCategory=Security Group Management
+OpCode=Info
+Message=A member was added to a security-enabled local group.
+
+Subject:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1001
+	Account Name:		narayana
+	Account Domain:		DESKTOP-JMN8F45
+	Logon ID:		0x3A8741
+
+Member:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1017
+	Account Name:		-
+
+Group:
+	Security ID:		S-1-5-32-544
+	Group Name:		Administrators
+	Group Domain:		Builtin
+
+Additional Information:
+	Privileges:		-","2026-08-15T12:58:44.191+0000",,"DESKTOP-JMN8F45",main,30,"//_::._====-=___.===_=__==______-__.\r\r:\rt_:tt-----","WinEventLog:Security","WinEventLog:Security","si-i-0619586bc2f326949.prd-p-4b1hq.splunkcloud.com",,,,
+"DESKTOP-JMN8F45","narayana
+-","DESKTOP-JMN8F45",4732,0,Builtin,Users,,,"Audit Success",Security,0x3A8741,,"A member was added to a security-enabled local group.
+
+Subject:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1001
+	Account Name:		narayana
+	Account Domain:		DESKTOP-JMN8F45
+	Logon ID:		0x3A8741
+
+Member:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1021
+	Account Name:		-
+
+Group:
+	Security ID:		S-1-5-32-545
+	Group Name:		Users
+	Group Domain:		Builtin
+
+Additional Information:
+	Privileges:		-",,Info,"-",,182782,,"S-1-5-21-2168340411-3997220154-3042947259-1001
+S-1-5-21-2168340411-3997220154-3042947259-1021
+S-1-5-32-545","Microsoft Windows security auditing.",,"Security Group Management",,Information,,"08/15/2026 06:28:03.785 PM
+LogName=Security
+EventCode=4732
+EventType=0
+ComputerName=DESKTOP-JMN8F45
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=182782
+Keywords=Audit Success
+TaskCategory=Security Group Management
+OpCode=Info
+Message=A member was added to a security-enabled local group.
+
+Subject:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1001
+	Account Name:		narayana
+	Account Domain:		DESKTOP-JMN8F45
+	Logon ID:		0x3A8741
+
+Member:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1021
+	Account Name:		-
+
+Group:
+	Security ID:		S-1-5-32-545
+	Group Name:		Users
+	Group Domain:		Builtin
+
+Additional Information:
+	Privileges:		-","2026-08-15T12:58:03.785+0000",,"DESKTOP-JMN8F45",main,30,"//_::._====-=___.===_=__==______-__.\r\r:\rt_:tt-----","WinEventLog:Security","WinEventLog:Security","si-i-0619586bc2f326949.prd-p-4b1hq.splunkcloud.com",,,,
+"DESKTOP-JMN8F45","narayana
+-","DESKTOP-JMN8F45",4732,0,Builtin,Users,,,"Audit Success",Security,0x3A8741,,"A member was added to a security-enabled local group.
+
+Subject:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1001
+	Account Name:		narayana
+	Account Domain:		DESKTOP-JMN8F45
+	Logon ID:		0x3A8741
+
+Member:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1020
+	Account Name:		-
+
+Group:
+	Security ID:		S-1-5-32-545
+	Group Name:		Users
+	Group Domain:		Builtin
+
+Additional Information:
+	Privileges:		-",,Info,"-",,182774,,"S-1-5-21-2168340411-3997220154-3042947259-1001
+S-1-5-21-2168340411-3997220154-3042947259-1020
+S-1-5-32-545","Microsoft Windows security auditing.",,"Security Group Management",,Information,,"08/15/2026 06:27:57.875 PM
+LogName=Security
+EventCode=4732
+EventType=0
+ComputerName=DESKTOP-JMN8F45
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=182774
+Keywords=Audit Success
+TaskCategory=Security Group Management
+OpCode=Info
+Message=A member was added to a security-enabled local group.
+
+Subject:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1001
+	Account Name:		narayana
+	Account Domain:		DESKTOP-JMN8F45
+	Logon ID:		0x3A8741
+
+Member:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1020
+	Account Name:		-
+
+Group:
+	Security ID:		S-1-5-32-545
+	Group Name:		Users
+	Group Domain:		Builtin
+
+Additional Information:
+	Privileges:		-","2026-08-15T12:57:57.875+0000",,"DESKTOP-JMN8F45",main,30,"//_::._====-=___.===_=__==______-__.\r\r:\rt_:tt-----","WinEventLog:Security","WinEventLog:Security","si-i-0619586bc2f326949.prd-p-4b1hq.splunkcloud.com",,,,
+"DESKTOP-JMN8F45","narayana
+-","DESKTOP-JMN8F45",4732,0,Builtin,Users,,,"Audit Success",Security,0x3A8741,,"A member was added to a security-enabled local group.
+
+Subject:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1001
+	Account Name:		narayana
+	Account Domain:		DESKTOP-JMN8F45
+	Logon ID:		0x3A8741
+
+Member:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1019
+	Account Name:		-
+
+Group:
+	Security ID:		S-1-5-32-545
+	Group Name:		Users
+	Group Domain:		Builtin
+
+Additional Information:
+	Privileges:		-",,Info,"-",,182766,,"S-1-5-21-2168340411-3997220154-3042947259-1001
+S-1-5-21-2168340411-3997220154-3042947259-1019
+S-1-5-32-545","Microsoft Windows security auditing.",,"Security Group Management",,Information,,"08/15/2026 06:27:52.611 PM
+LogName=Security
+EventCode=4732
+EventType=0
+ComputerName=DESKTOP-JMN8F45
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=182766
+Keywords=Audit Success
+TaskCategory=Security Group Management
+OpCode=Info
+Message=A member was added to a security-enabled local group.
+
+Subject:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1001
+	Account Name:		narayana
+	Account Domain:		DESKTOP-JMN8F45
+	Logon ID:		0x3A8741
+
+Member:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1019
+	Account Name:		-
+
+Group:
+	Security ID:		S-1-5-32-545
+	Group Name:		Users
+	Group Domain:		Builtin
+
+Additional Information:
+	Privileges:		-","2026-08-15T12:57:52.611+0000",,"DESKTOP-JMN8F45",main,30,"//_::._====-=___.===_=__==______-__.\r\r:\rt_:tt-----","WinEventLog:Security","WinEventLog:Security","si-i-0619586bc2f326949.prd-p-4b1hq.splunkcloud.com",,,,
+"DESKTOP-JMN8F45","narayana
+-","DESKTOP-JMN8F45",4732,0,Builtin,Users,,,"Audit Success",Security,0x3A8741,,"A member was added to a security-enabled local group.
+
+Subject:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1001
+	Account Name:		narayana
+	Account Domain:		DESKTOP-JMN8F45
+	Logon ID:		0x3A8741
+
+Member:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1018
+	Account Name:		-
+
+Group:
+	Security ID:		S-1-5-32-545
+	Group Name:		Users
+	Group Domain:		Builtin
+
+Additional Information:
+	Privileges:		-",,Info,"-",,182758,,"S-1-5-21-2168340411-3997220154-3042947259-1001
+S-1-5-21-2168340411-3997220154-3042947259-1018
+S-1-5-32-545","Microsoft Windows security auditing.",,"Security Group Management",,Information,,"08/15/2026 06:27:41.761 PM
+LogName=Security
+EventCode=4732
+EventType=0
+ComputerName=DESKTOP-JMN8F45
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=182758
+Keywords=Audit Success
+TaskCategory=Security Group Management
+OpCode=Info
+Message=A member was added to a security-enabled local group.
+
+Subject:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1001
+	Account Name:		narayana
+	Account Domain:		DESKTOP-JMN8F45
+	Logon ID:		0x3A8741
+
+Member:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1018
+	Account Name:		-
+
+Group:
+	Security ID:		S-1-5-32-545
+	Group Name:		Users
+	Group Domain:		Builtin
+
+Additional Information:
+	Privileges:		-","2026-08-15T12:57:41.761+0000",,"DESKTOP-JMN8F45",main,30,"//_::._====-=___.===_=__==______-__.\r\r:\rt_:tt-----","WinEventLog:Security","WinEventLog:Security","si-i-0619586bc2f326949.prd-p-4b1hq.splunkcloud.com",,,,
+"DESKTOP-JMN8F45","narayana
+-","DESKTOP-JMN8F45",4732,0,Builtin,Users,,,"Audit Success",Security,0x3A8741,,"A member was added to a security-enabled local group.
+
+Subject:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1001
+	Account Name:		narayana
+	Account Domain:		DESKTOP-JMN8F45
+	Logon ID:		0x3A8741
+
+Member:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1017
+	Account Name:		-
+
+Group:
+	Security ID:		S-1-5-32-545
+	Group Name:		Users
+	Group Domain:		Builtin
+
+Additional Information:
+	Privileges:		-",,Info,"-",,182746,,"S-1-5-21-2168340411-3997220154-3042947259-1001
+S-1-5-21-2168340411-3997220154-3042947259-1017
+S-1-5-32-545","Microsoft Windows security auditing.",,"Security Group Management",,Information,,"08/15/2026 06:27:35.582 PM
+LogName=Security
+EventCode=4732
+EventType=0
+ComputerName=DESKTOP-JMN8F45
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=182746
+Keywords=Audit Success
+TaskCategory=Security Group Management
+OpCode=Info
+Message=A member was added to a security-enabled local group.
+
+Subject:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1001
+	Account Name:		narayana
+	Account Domain:		DESKTOP-JMN8F45
+	Logon ID:		0x3A8741
+
+Member:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1017
+	Account Name:		-
+
+Group:
+	Security ID:		S-1-5-32-545
+	Group Name:		Users
+	Group Domain:		Builtin
+
+Additional Information:
+	Privileges:		-","2026-08-15T12:57:35.582+0000",,"DESKTOP-JMN8F45",main,30,"//_::._====-=___.===_=__==______-__.\r\r:\rt_:tt-----","WinEventLog:Security","WinEventLog:Security","si-i-0619586bc2f326949.prd-p-4b1hq.splunkcloud.com",,,,

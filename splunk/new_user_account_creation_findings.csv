@@ -1,0 +1,446 @@
+"Account_Domain","Account_Expires","Account_Name","Allowed_To_Delegate_To",ComputerName,"Display_Name",EventCode,EventType,Guid,"Home_Directory","Home_Drive",IMPHASH,Keywords,LogName,"Logon_Hours","Logon_ID",MD5,Message,Name,"New_UAC_Value","Old_UAC_Value",OpCode,"Password_Last_Set","Primary_Group_ID",ProcessID,"Profile_Path",RecordNumber,"SAM_Account_Name",SHA256,"SID_History","Script_Path","Security_ID",SourceName,SystemTime,TaskCategory,ThreadID,Type,UserID,"User_Account_Control","User_Parameters","User_Principal_Name","User_Workstations","_raw","_time",eventtype,host,index,linecount,punct,source,sourcetype,"splunk_server","splunk_server_group",tag,"tag::eventtype",xmlns
+"DESKTOP-JMN8F45
+DESKTOP-JMN8F45","<never>","narayana
+socuser4","-","DESKTOP-JMN8F45","<value not set>",4720,0,,"<value not set>","<value not set>",,"Audit Success",Security,All,0x3A8741,,"A user account was created.
+
+Subject:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1001
+	Account Name:		narayana
+	Account Domain:		DESKTOP-JMN8F45
+	Logon ID:		0x3A8741
+
+New Account:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1021
+	Account Name:		socuser4
+	Account Domain:		DESKTOP-JMN8F45
+
+Attributes:
+	SAM Account Name:	socuser4
+	Display Name:		<value not set>
+	User Principal Name:	-
+	Home Directory:		<value not set>
+	Home Drive:		<value not set>
+	Script Path:		<value not set>
+	Profile Path:		<value not set>
+	User Workstations:	<value not set>
+	Password Last Set:	<never>
+	Account Expires:		<never>
+	Primary Group ID:	513
+	Allowed To Delegate To:	-
+	Old UAC Value:		0x0
+	New UAC Value:		0x15
+	User Account Control:	
+		Account Disabled
+		'Password Not Required' - Enabled
+		'Normal Account' - Enabled
+	User Parameters:	<value not set>
+	SID History:		-
+	Logon Hours:		All
+
+Additional Information:
+	Privileges		-",,0x15,0x0,Info,"<never>",513,,"<value not set>",182778,socuser4,,"-","<value not set>","S-1-5-21-2168340411-3997220154-3042947259-1001
+S-1-5-21-2168340411-3997220154-3042947259-1021","Microsoft Windows security auditing.",,"User Account Management",,Information,,,"<value not set>","-","<value not set>","08/15/2026 06:28:03.667 PM
+LogName=Security
+EventCode=4720
+EventType=0
+ComputerName=DESKTOP-JMN8F45
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=182778
+Keywords=Audit Success
+TaskCategory=User Account Management
+OpCode=Info
+Message=A user account was created.
+
+Subject:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1001
+	Account Name:		narayana
+	Account Domain:		DESKTOP-JMN8F45
+	Logon ID:		0x3A8741
+
+New Account:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1021
+	Account Name:		socuser4
+	Account Domain:		DESKTOP-JMN8F45
+
+Attributes:
+	SAM Account Name:	socuser4
+	Display Name:		<value not set>
+	User Principal Name:	-
+	Home Directory:		<value not set>
+	Home Drive:		<value not set>
+	Script Path:		<value not set>
+	Profile Path:		<value not set>
+	User Workstations:	<value not set>
+	Password Last Set:	<never>
+	Account Expires:		<never>
+	Primary Group ID:	513
+	Allowed To Delegate To:	-
+	Old UAC Value:		0x0
+	New UAC Value:		0x15
+	User Account Control:	
+		Account Disabled
+		'Password Not Required' - Enabled
+		'Normal Account' - Enabled
+	User Parameters:	<value not set>
+	SID History:		-
+	Logon Hours:		All
+
+Additional Information:
+	Privileges		-","2026-08-15T12:58:03.667+0000",,"DESKTOP-JMN8F45",main,49,"//_::._====-=___.===_=__==____.\r\r:\rt_:tt-------\rt_","WinEventLog:Security","WinEventLog:Security","si-i-0619586bc2f326949.prd-p-4b1hq.splunkcloud.com",,,,
+"DESKTOP-JMN8F45
+DESKTOP-JMN8F45","<never>","narayana
+socuser3","-","DESKTOP-JMN8F45","<value not set>",4720,0,,"<value not set>","<value not set>",,"Audit Success",Security,All,0x3A8741,,"A user account was created.
+
+Subject:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1001
+	Account Name:		narayana
+	Account Domain:		DESKTOP-JMN8F45
+	Logon ID:		0x3A8741
+
+New Account:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1020
+	Account Name:		socuser3
+	Account Domain:		DESKTOP-JMN8F45
+
+Attributes:
+	SAM Account Name:	socuser3
+	Display Name:		<value not set>
+	User Principal Name:	-
+	Home Directory:		<value not set>
+	Home Drive:		<value not set>
+	Script Path:		<value not set>
+	Profile Path:		<value not set>
+	User Workstations:	<value not set>
+	Password Last Set:	<never>
+	Account Expires:		<never>
+	Primary Group ID:	513
+	Allowed To Delegate To:	-
+	Old UAC Value:		0x0
+	New UAC Value:		0x15
+	User Account Control:	
+		Account Disabled
+		'Password Not Required' - Enabled
+		'Normal Account' - Enabled
+	User Parameters:	<value not set>
+	SID History:		-
+	Logon Hours:		All
+
+Additional Information:
+	Privileges		-",,0x15,0x0,Info,"<never>",513,,"<value not set>",182770,socuser3,,"-","<value not set>","S-1-5-21-2168340411-3997220154-3042947259-1001
+S-1-5-21-2168340411-3997220154-3042947259-1020","Microsoft Windows security auditing.",,"User Account Management",,Information,,,"<value not set>","-","<value not set>","08/15/2026 06:27:57.784 PM
+LogName=Security
+EventCode=4720
+EventType=0
+ComputerName=DESKTOP-JMN8F45
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=182770
+Keywords=Audit Success
+TaskCategory=User Account Management
+OpCode=Info
+Message=A user account was created.
+
+Subject:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1001
+	Account Name:		narayana
+	Account Domain:		DESKTOP-JMN8F45
+	Logon ID:		0x3A8741
+
+New Account:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1020
+	Account Name:		socuser3
+	Account Domain:		DESKTOP-JMN8F45
+
+Attributes:
+	SAM Account Name:	socuser3
+	Display Name:		<value not set>
+	User Principal Name:	-
+	Home Directory:		<value not set>
+	Home Drive:		<value not set>
+	Script Path:		<value not set>
+	Profile Path:		<value not set>
+	User Workstations:	<value not set>
+	Password Last Set:	<never>
+	Account Expires:		<never>
+	Primary Group ID:	513
+	Allowed To Delegate To:	-
+	Old UAC Value:		0x0
+	New UAC Value:		0x15
+	User Account Control:	
+		Account Disabled
+		'Password Not Required' - Enabled
+		'Normal Account' - Enabled
+	User Parameters:	<value not set>
+	SID History:		-
+	Logon Hours:		All
+
+Additional Information:
+	Privileges		-","2026-08-15T12:57:57.784+0000",,"DESKTOP-JMN8F45",main,49,"//_::._====-=___.===_=__==____.\r\r:\rt_:tt-------\rt_","WinEventLog:Security","WinEventLog:Security","si-i-0619586bc2f326949.prd-p-4b1hq.splunkcloud.com",,,,
+"DESKTOP-JMN8F45
+DESKTOP-JMN8F45","<never>","narayana
+socuser2","-","DESKTOP-JMN8F45","<value not set>",4720,0,,"<value not set>","<value not set>",,"Audit Success",Security,All,0x3A8741,,"A user account was created.
+
+Subject:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1001
+	Account Name:		narayana
+	Account Domain:		DESKTOP-JMN8F45
+	Logon ID:		0x3A8741
+
+New Account:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1019
+	Account Name:		socuser2
+	Account Domain:		DESKTOP-JMN8F45
+
+Attributes:
+	SAM Account Name:	socuser2
+	Display Name:		<value not set>
+	User Principal Name:	-
+	Home Directory:		<value not set>
+	Home Drive:		<value not set>
+	Script Path:		<value not set>
+	Profile Path:		<value not set>
+	User Workstations:	<value not set>
+	Password Last Set:	<never>
+	Account Expires:		<never>
+	Primary Group ID:	513
+	Allowed To Delegate To:	-
+	Old UAC Value:		0x0
+	New UAC Value:		0x15
+	User Account Control:	
+		Account Disabled
+		'Password Not Required' - Enabled
+		'Normal Account' - Enabled
+	User Parameters:	<value not set>
+	SID History:		-
+	Logon Hours:		All
+
+Additional Information:
+	Privileges		-",,0x15,0x0,Info,"<never>",513,,"<value not set>",182762,socuser2,,"-","<value not set>","S-1-5-21-2168340411-3997220154-3042947259-1001
+S-1-5-21-2168340411-3997220154-3042947259-1019","Microsoft Windows security auditing.",,"User Account Management",,Information,,,"<value not set>","-","<value not set>","08/15/2026 06:27:52.464 PM
+LogName=Security
+EventCode=4720
+EventType=0
+ComputerName=DESKTOP-JMN8F45
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=182762
+Keywords=Audit Success
+TaskCategory=User Account Management
+OpCode=Info
+Message=A user account was created.
+
+Subject:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1001
+	Account Name:		narayana
+	Account Domain:		DESKTOP-JMN8F45
+	Logon ID:		0x3A8741
+
+New Account:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1019
+	Account Name:		socuser2
+	Account Domain:		DESKTOP-JMN8F45
+
+Attributes:
+	SAM Account Name:	socuser2
+	Display Name:		<value not set>
+	User Principal Name:	-
+	Home Directory:		<value not set>
+	Home Drive:		<value not set>
+	Script Path:		<value not set>
+	Profile Path:		<value not set>
+	User Workstations:	<value not set>
+	Password Last Set:	<never>
+	Account Expires:		<never>
+	Primary Group ID:	513
+	Allowed To Delegate To:	-
+	Old UAC Value:		0x0
+	New UAC Value:		0x15
+	User Account Control:	
+		Account Disabled
+		'Password Not Required' - Enabled
+		'Normal Account' - Enabled
+	User Parameters:	<value not set>
+	SID History:		-
+	Logon Hours:		All
+
+Additional Information:
+	Privileges		-","2026-08-15T12:57:52.464+0000",,"DESKTOP-JMN8F45",main,49,"//_::._====-=___.===_=__==____.\r\r:\rt_:tt-------\rt_","WinEventLog:Security","WinEventLog:Security","si-i-0619586bc2f326949.prd-p-4b1hq.splunkcloud.com",,,,
+"DESKTOP-JMN8F45
+DESKTOP-JMN8F45","<never>","narayana
+socuser1","-","DESKTOP-JMN8F45","<value not set>",4720,0,,"<value not set>","<value not set>",,"Audit Success",Security,All,0x3A8741,,"A user account was created.
+
+Subject:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1001
+	Account Name:		narayana
+	Account Domain:		DESKTOP-JMN8F45
+	Logon ID:		0x3A8741
+
+New Account:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1018
+	Account Name:		socuser1
+	Account Domain:		DESKTOP-JMN8F45
+
+Attributes:
+	SAM Account Name:	socuser1
+	Display Name:		<value not set>
+	User Principal Name:	-
+	Home Directory:		<value not set>
+	Home Drive:		<value not set>
+	Script Path:		<value not set>
+	Profile Path:		<value not set>
+	User Workstations:	<value not set>
+	Password Last Set:	<never>
+	Account Expires:		<never>
+	Primary Group ID:	513
+	Allowed To Delegate To:	-
+	Old UAC Value:		0x0
+	New UAC Value:		0x15
+	User Account Control:	
+		Account Disabled
+		'Password Not Required' - Enabled
+		'Normal Account' - Enabled
+	User Parameters:	<value not set>
+	SID History:		-
+	Logon Hours:		All
+
+Additional Information:
+	Privileges		-",,0x15,0x0,Info,"<never>",513,,"<value not set>",182754,socuser1,,"-","<value not set>","S-1-5-21-2168340411-3997220154-3042947259-1001
+S-1-5-21-2168340411-3997220154-3042947259-1018","Microsoft Windows security auditing.",,"User Account Management",,Information,,,"<value not set>","-","<value not set>","08/15/2026 06:27:41.649 PM
+LogName=Security
+EventCode=4720
+EventType=0
+ComputerName=DESKTOP-JMN8F45
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=182754
+Keywords=Audit Success
+TaskCategory=User Account Management
+OpCode=Info
+Message=A user account was created.
+
+Subject:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1001
+	Account Name:		narayana
+	Account Domain:		DESKTOP-JMN8F45
+	Logon ID:		0x3A8741
+
+New Account:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1018
+	Account Name:		socuser1
+	Account Domain:		DESKTOP-JMN8F45
+
+Attributes:
+	SAM Account Name:	socuser1
+	Display Name:		<value not set>
+	User Principal Name:	-
+	Home Directory:		<value not set>
+	Home Drive:		<value not set>
+	Script Path:		<value not set>
+	Profile Path:		<value not set>
+	User Workstations:	<value not set>
+	Password Last Set:	<never>
+	Account Expires:		<never>
+	Primary Group ID:	513
+	Allowed To Delegate To:	-
+	Old UAC Value:		0x0
+	New UAC Value:		0x15
+	User Account Control:	
+		Account Disabled
+		'Password Not Required' - Enabled
+		'Normal Account' - Enabled
+	User Parameters:	<value not set>
+	SID History:		-
+	Logon Hours:		All
+
+Additional Information:
+	Privileges		-","2026-08-15T12:57:41.649+0000",,"DESKTOP-JMN8F45",main,49,"//_::._====-=___.===_=__==____.\r\r:\rt_:tt-------\rt_","WinEventLog:Security","WinEventLog:Security","si-i-0619586bc2f326949.prd-p-4b1hq.splunkcloud.com",,,,
+"DESKTOP-JMN8F45
+DESKTOP-JMN8F45","<never>","narayana
+socuser","-","DESKTOP-JMN8F45","<value not set>",4720,0,,"<value not set>","<value not set>",,"Audit Success",Security,All,0x3A8741,,"A user account was created.
+
+Subject:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1001
+	Account Name:		narayana
+	Account Domain:		DESKTOP-JMN8F45
+	Logon ID:		0x3A8741
+
+New Account:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1017
+	Account Name:		socuser
+	Account Domain:		DESKTOP-JMN8F45
+
+Attributes:
+	SAM Account Name:	socuser
+	Display Name:		<value not set>
+	User Principal Name:	-
+	Home Directory:		<value not set>
+	Home Drive:		<value not set>
+	Script Path:		<value not set>
+	Profile Path:		<value not set>
+	User Workstations:	<value not set>
+	Password Last Set:	<never>
+	Account Expires:		<never>
+	Primary Group ID:	513
+	Allowed To Delegate To:	-
+	Old UAC Value:		0x0
+	New UAC Value:		0x15
+	User Account Control:	
+		Account Disabled
+		'Password Not Required' - Enabled
+		'Normal Account' - Enabled
+	User Parameters:	<value not set>
+	SID History:		-
+	Logon Hours:		All
+
+Additional Information:
+	Privileges		-",,0x15,0x0,Info,"<never>",513,,"<value not set>",182742,socuser,,"-","<value not set>","S-1-5-21-2168340411-3997220154-3042947259-1001
+S-1-5-21-2168340411-3997220154-3042947259-1017","Microsoft Windows security auditing.",,"User Account Management",,Information,,,"<value not set>","-","<value not set>","08/15/2026 06:27:35.514 PM
+LogName=Security
+EventCode=4720
+EventType=0
+ComputerName=DESKTOP-JMN8F45
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=182742
+Keywords=Audit Success
+TaskCategory=User Account Management
+OpCode=Info
+Message=A user account was created.
+
+Subject:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1001
+	Account Name:		narayana
+	Account Domain:		DESKTOP-JMN8F45
+	Logon ID:		0x3A8741
+
+New Account:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1017
+	Account Name:		socuser
+	Account Domain:		DESKTOP-JMN8F45
+
+Attributes:
+	SAM Account Name:	socuser
+	Display Name:		<value not set>
+	User Principal Name:	-
+	Home Directory:		<value not set>
+	Home Drive:		<value not set>
+	Script Path:		<value not set>
+	Profile Path:		<value not set>
+	User Workstations:	<value not set>
+	Password Last Set:	<never>
+	Account Expires:		<never>
+	Primary Group ID:	513
+	Allowed To Delegate To:	-
+	Old UAC Value:		0x0
+	New UAC Value:		0x15
+	User Account Control:	
+		Account Disabled
+		'Password Not Required' - Enabled
+		'Normal Account' - Enabled
+	User Parameters:	<value not set>
+	SID History:		-
+	Logon Hours:		All
+
+Additional Information:
+	Privileges		-","2026-08-15T12:57:35.514+0000",,"DESKTOP-JMN8F45",main,49,"//_::._====-=___.===_=__==____.\r\r:\rt_:tt-------\rt_","WinEventLog:Security","WinEventLog:Security","si-i-0619586bc2f326949.prd-p-4b1hq.splunkcloud.com",,,,

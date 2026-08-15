@@ -1,0 +1,216 @@
+"Account_Domain","Account_Name",ComputerName,EventCode,EventType,Keywords,LogName,"Logon_ID",Message,OpCode,RecordNumber,"Security_ID",SourceName,TaskCategory,Type,"_raw","_time",eventtype,host,index,linecount,punct,source,sourcetype,"splunk_server","splunk_server_group",tag,"tag::eventtype"
+"DESKTOP-JMN8F45
+DESKTOP-JMN8F45","narayana
+socuser4","DESKTOP-JMN8F45",4726,0,"Audit Success",Security,0x3A8741,"A user account was deleted.
+
+Subject:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1001
+	Account Name:		narayana
+	Account Domain:		DESKTOP-JMN8F45
+	Logon ID:		0x3A8741
+
+Target Account:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1021
+	Account Name:		socuser4
+	Account Domain:		DESKTOP-JMN8F45
+
+Additional Information:
+	Privileges	-",Info,183508,"S-1-5-21-2168340411-3997220154-3042947259-1001
+S-1-5-21-2168340411-3997220154-3042947259-1021","Microsoft Windows security auditing.","User Account Management",Information,"08/15/2026 06:44:16.516 PM
+LogName=Security
+EventCode=4726
+EventType=0
+ComputerName=DESKTOP-JMN8F45
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=183508
+Keywords=Audit Success
+TaskCategory=User Account Management
+OpCode=Info
+Message=A user account was deleted.
+
+Subject:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1001
+	Account Name:		narayana
+	Account Domain:		DESKTOP-JMN8F45
+	Logon ID:		0x3A8741
+
+Target Account:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1021
+	Account Name:		socuser4
+	Account Domain:		DESKTOP-JMN8F45
+
+Additional Information:
+	Privileges	-","2026-08-15T13:14:16.516+0000",,"DESKTOP-JMN8F45",main,26,"//_::._====-=___.===_=__==____.\r\r:\rt_:tt-------\rt_","WinEventLog:Security","WinEventLog:Security","si-i-0619586bc2f326949.prd-p-4b1hq.splunkcloud.com",,,
+"DESKTOP-JMN8F45
+DESKTOP-JMN8F45","narayana
+socuser3","DESKTOP-JMN8F45",4726,0,"Audit Success",Security,0x3A8741,"A user account was deleted.
+
+Subject:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1001
+	Account Name:		narayana
+	Account Domain:		DESKTOP-JMN8F45
+	Logon ID:		0x3A8741
+
+Target Account:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1020
+	Account Name:		socuser3
+	Account Domain:		DESKTOP-JMN8F45
+
+Additional Information:
+	Privileges	-",Info,183501,"S-1-5-21-2168340411-3997220154-3042947259-1001
+S-1-5-21-2168340411-3997220154-3042947259-1020","Microsoft Windows security auditing.","User Account Management",Information,"08/15/2026 06:44:11.414 PM
+LogName=Security
+EventCode=4726
+EventType=0
+ComputerName=DESKTOP-JMN8F45
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=183501
+Keywords=Audit Success
+TaskCategory=User Account Management
+OpCode=Info
+Message=A user account was deleted.
+
+Subject:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1001
+	Account Name:		narayana
+	Account Domain:		DESKTOP-JMN8F45
+	Logon ID:		0x3A8741
+
+Target Account:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1020
+	Account Name:		socuser3
+	Account Domain:		DESKTOP-JMN8F45
+
+Additional Information:
+	Privileges	-","2026-08-15T13:14:11.414+0000",,"DESKTOP-JMN8F45",main,26,"//_::._====-=___.===_=__==____.\r\r:\rt_:tt-------\rt_","WinEventLog:Security","WinEventLog:Security","si-i-0619586bc2f326949.prd-p-4b1hq.splunkcloud.com",,,
+"DESKTOP-JMN8F45
+DESKTOP-JMN8F45","narayana
+socuser2","DESKTOP-JMN8F45",4726,0,"Audit Success",Security,0x3A8741,"A user account was deleted.
+
+Subject:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1001
+	Account Name:		narayana
+	Account Domain:		DESKTOP-JMN8F45
+	Logon ID:		0x3A8741
+
+Target Account:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1019
+	Account Name:		socuser2
+	Account Domain:		DESKTOP-JMN8F45
+
+Additional Information:
+	Privileges	-",Info,183491,"S-1-5-21-2168340411-3997220154-3042947259-1001
+S-1-5-21-2168340411-3997220154-3042947259-1019","Microsoft Windows security auditing.","User Account Management",Information,"08/15/2026 06:44:04.424 PM
+LogName=Security
+EventCode=4726
+EventType=0
+ComputerName=DESKTOP-JMN8F45
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=183491
+Keywords=Audit Success
+TaskCategory=User Account Management
+OpCode=Info
+Message=A user account was deleted.
+
+Subject:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1001
+	Account Name:		narayana
+	Account Domain:		DESKTOP-JMN8F45
+	Logon ID:		0x3A8741
+
+Target Account:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1019
+	Account Name:		socuser2
+	Account Domain:		DESKTOP-JMN8F45
+
+Additional Information:
+	Privileges	-","2026-08-15T13:14:04.424+0000",,"DESKTOP-JMN8F45",main,26,"//_::._====-=___.===_=__==____.\r\r:\rt_:tt-------\rt_","WinEventLog:Security","WinEventLog:Security","si-i-0619586bc2f326949.prd-p-4b1hq.splunkcloud.com",,,
+"DESKTOP-JMN8F45
+DESKTOP-JMN8F45","narayana
+socuser1","DESKTOP-JMN8F45",4726,0,"Audit Success",Security,0x3A8741,"A user account was deleted.
+
+Subject:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1001
+	Account Name:		narayana
+	Account Domain:		DESKTOP-JMN8F45
+	Logon ID:		0x3A8741
+
+Target Account:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1018
+	Account Name:		socuser1
+	Account Domain:		DESKTOP-JMN8F45
+
+Additional Information:
+	Privileges	-",Info,183484,"S-1-5-21-2168340411-3997220154-3042947259-1001
+S-1-5-21-2168340411-3997220154-3042947259-1018","Microsoft Windows security auditing.","User Account Management",Information,"08/15/2026 06:43:57.387 PM
+LogName=Security
+EventCode=4726
+EventType=0
+ComputerName=DESKTOP-JMN8F45
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=183484
+Keywords=Audit Success
+TaskCategory=User Account Management
+OpCode=Info
+Message=A user account was deleted.
+
+Subject:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1001
+	Account Name:		narayana
+	Account Domain:		DESKTOP-JMN8F45
+	Logon ID:		0x3A8741
+
+Target Account:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1018
+	Account Name:		socuser1
+	Account Domain:		DESKTOP-JMN8F45
+
+Additional Information:
+	Privileges	-","2026-08-15T13:13:57.387+0000",,"DESKTOP-JMN8F45",main,26,"//_::._====-=___.===_=__==____.\r\r:\rt_:tt-------\rt_","WinEventLog:Security","WinEventLog:Security","si-i-0619586bc2f326949.prd-p-4b1hq.splunkcloud.com",,,
+"DESKTOP-JMN8F45
+DESKTOP-JMN8F45","narayana
+socuser","DESKTOP-JMN8F45",4726,0,"Audit Success",Security,0x3A8741,"A user account was deleted.
+
+Subject:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1001
+	Account Name:		narayana
+	Account Domain:		DESKTOP-JMN8F45
+	Logon ID:		0x3A8741
+
+Target Account:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1017
+	Account Name:		socuser
+	Account Domain:		DESKTOP-JMN8F45
+
+Additional Information:
+	Privileges	-",Info,183477,"S-1-5-21-2168340411-3997220154-3042947259-1001
+S-1-5-21-2168340411-3997220154-3042947259-1017","Microsoft Windows security auditing.","User Account Management",Information,"08/15/2026 06:43:51.504 PM
+LogName=Security
+EventCode=4726
+EventType=0
+ComputerName=DESKTOP-JMN8F45
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=183477
+Keywords=Audit Success
+TaskCategory=User Account Management
+OpCode=Info
+Message=A user account was deleted.
+
+Subject:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1001
+	Account Name:		narayana
+	Account Domain:		DESKTOP-JMN8F45
+	Logon ID:		0x3A8741
+
+Target Account:
+	Security ID:		S-1-5-21-2168340411-3997220154-3042947259-1017
+	Account Name:		socuser
+	Account Domain:		DESKTOP-JMN8F45
+
+Additional Information:
+	Privileges	-","2026-08-15T13:13:51.504+0000",,"DESKTOP-JMN8F45",main,26,"//_::._====-=___.===_=__==____.\r\r:\rt_:tt-------\rt_","WinEventLog:Security","WinEventLog:Security","si-i-0619586bc2f326949.prd-p-4b1hq.splunkcloud.com",,,
