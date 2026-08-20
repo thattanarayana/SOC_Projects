@@ -1,6 +1,7 @@
 New Local User Account Creation & Privileged Group Membership Change Detection
 
 New Local User Account Detection Event ID: 4720
+
 Privileged Group Membership Change Detection Event ID: 4732
 
 Existed user deletion Event Id: 4726
